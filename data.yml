@@ -1,0 +1,58 @@
+# Landscape2 data
+#
+# This file contains the data that will be used to generate the landscape.
+#
+# Reference documentation: https://github.com/cncf/landscape2/blob/main/docs/config/data.yml
+
+categories:
+  - name: DDI-CDI Tools
+    subcategories:
+      - name: DDI-CDI Tools
+        items: 
+          - name: Sikt DDI-CDI converter
+            description: The DDI-CDI Converter Prototype is a Python-based web application developed to convert statistical files from Stata, SPSS, and CSV formats into DDI-CDI JSON-LD files. This prototype meets the growing demand for interoperability and data sharing by transforming various data formats into an open, standardized, and machine-readable format.
+            homepage_url: https://ddi-cdi-converter-app.azurewebsites.net/#
+            logo: sikt.png
+            project: sandbox
+            joined: "2025-11-12"
+            repo_url: https://github.com/benjaminbeuster/DDICDI_generator
+            branch: main
+            license: "MIT License"
+            twitter: https://x.com/sikt_no
+            extra:
+              accepted: "2025-11-12"
+              vgitter_url: https://gitter.url
+              linkedin_url: "https://www.linkedin.com/company/isikt/"
+              youtube_url: https://www.youtube.com/@siktkunnskapssektorenstjen629
+          - name: Nectar Publisher
+            homepage_url: https://ddi-developers.github.io/nectar-publisher/
+            logo: nectar.svg
+            description: Document your tabular datasets and create codebooks and machine actionable metadata using DDI.
+            project: "sandbox"
+            joined: "2025-11-12"
+            repo_url: https://github.com/ddi-developers/nectar-publisher
+            branch: main
+            license: "MIT License"
+            extra:
+              accepted: "2025-11-12"
+              summary_tags: "publisher"
+          - item: Data Artifex
+            homepage_url: https://dataartifex.org/
+            logo: artifex.png
+            description: Data Artifex is a Python-based, open-source ecosystem that elevates data into API-powered, machine-actionable digital knowledge.
+            project: "incubating"
+            joined: "2025-11-12"
+            repo_url: https://github.com/dataartifex
+            branch: main
+            license: "MIT License"
+            extra:
+              accepted: "2025-11-12"
+      - name: DDI-CDI Profiles
+        items: 
+          - name: DDI-CDI Core Profile
+            description: The DDI-CDI Core Profile defines the essential elements and structure required for representing statistical data and metadata in a standardized manner using the DDI-CDI framework.
+            homepage_url: https://ddialliance.org/Specification/DDI-CDI/Core-Profile/
+            logo: ddi_cdi_logo.png
+            project: standard
+            joined: "2025-11-12"
+            repo_url:
